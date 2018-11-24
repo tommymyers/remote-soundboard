@@ -1,0 +1,20 @@
+{
+  "name": "remote-soundboard",
+  "version": "1.0.0",
+  "description": "Soundboard that is controlled through a web browser",
+  "main": "server/main.js",
+  "scripts": {
+    "dev": "nodemon server/main.js",
+    "start": "node server/main.js"
+  },
+  "author": "Tommy Myers",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "play-sound": "^1.1.2"
+  }
+}
