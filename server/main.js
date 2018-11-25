@@ -17,7 +17,7 @@ app.get('/button', (req, res) => {
 })
 
 app.post('/button', (req, res) => {
-    const sound_to_play = req.body.button + '.mp3'
+    const sound_to_play = req.body.button
     player.play(path.join(__dirname, 'audio', sound_to_play), function(err){
         if (err) console.log('error', err.message, err.stack)
       })
