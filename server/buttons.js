@@ -14,6 +14,10 @@ buttons = [
     {
         id: 'hit-or-miss',
         name: 'Hit or miss'
+    },
+    {
+        id: 'xbox-fortnite',
+        name: 'Take me to your Xbox'
     }
 ]
 
